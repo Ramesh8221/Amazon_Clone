@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e2e7e6;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* Logo */
+
+.nav-logo {
+    width: 120px;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Address */
+
+.nav-address {
+    width: 130px;
+}
+
+.nav-address p {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.address {
+    font-size: 16px;
+}
+
+
+/* Search */
+
+.nav-search {
+    height: 40px;
+    width: 50%;
+
+    display: flex;
+}
+
+.nav-search select {
+    width: 60px;
+    border: none;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.nav-search input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.nav-search button {
+    width: 55px;
+    border: none;
+    background-color: #febd69;
+    font-size: 20px;
+}
+
+
+/* Account */
+
+.nav-signin p,
+.nav-orders p {
+    font-size: 12px;
+}
+
+.nav-signin b,
+.nav-orders b {
+    font-size: 14px;
+}
+
+
+/* Cart */
+
+.nav-cart {
+    font-size: 20px;
+}
+
+
+/* ================= PANEL ================= */
+
+.panel {
+    height: 45px;
+
+    background-color: #232f3e;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.panel-all {
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+.panel-ops {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.panel-deals {
+    margin-left: auto;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    height: 410px;
+
+    background-image: url("https://images.unsplash.com/photo-1607082349566-187342175e2f");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* ================= SHOP SECTION ================= */
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+    background-color: #e2e7e6;
+
+    padding: 20px 0;
+
+    gap: 20px 0;
+}
+
+.box {
+    width: 23%;
+    height: 400px;
+
+    background-color: white;
+
+    padding: 20px 0 15px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.box-image {
+    height: 280px;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-content p {
+    color: #007185;
+
+    margin-top: 15px;
+
+    font-size: 16px;
+}
+
+
+/* ================= CATEGORY ================= */
+
+.category-section {
+    background-color: white;
+
+    padding: 35px 25px;
+
+    margin-top: 20px;
+}
+
+.category-section h1 {
+    text-align: center;
+
+    font-size: 36px;
+
+    margin-bottom: 35px;
+}
+
+.category-container {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    row-gap: 30px;
+}
+
+.category-box {
+    width: 24%;
+
+    text-align: center;
+}
+
+.category-image {
+    width: 100%;
+    height: 335px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-box h2 {
+    font-size: 25px;
+
+    margin-top: 10px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    margin-top: 30px;
+
+    color: white;
+}
+
+
+/* Back to top */
+
+.footer-top {
+    height: 55px;
+
+    background-color: #304158;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.footer-top:hover {
+    background-color: #3d5068;
+}
+
+
+/* Footer main */
+
+.footer-main {
+    background-color: #1f2a36;
+
+    min-height: 320px;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    padding-top: 40px;
+}
+
+
+/* Footer columns */
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-column h3 {
+    font-size: 17px;
+
+    margin-bottom: 12px;
+}
+
+.footer-column p {
+    font-size: 14px;
+
+    color: #ddd;
+
+    margin-bottom: 10px;
+
+    cursor: pointer;
+}
+
+.footer-column p:hover {
+    text-decoration: underline;
+}
+
+
+/* Bottom */
+
+.footer-bottom {
+    height: 100px;
+
+    background-color: #131a22;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 28px;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.footer-bottom p {
+    color: #ddd;
+
+    font-size: 12px;
+}
